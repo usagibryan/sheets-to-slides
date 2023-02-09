@@ -17,3 +17,18 @@ function createSlidesFromSheet() {
     title.setTop((slideHeight - title.getHeight()) / 2);
   }
 }
+
+/*
+function fillTemplate() {
+  var Presentation_ID= "?"; // Replace "?" with the id found in the URL of your Google Slides presentation
+
+  var Presentation=SlidesApp.openById(Presentation_ID);
+  var values = SpreadsheetApp.getActive().getDataRange().getValues();
+
+  values.forEach(function(row){
+    var templateVariable = row[0];
+    var templateValue = row[1];
+    Presentation.replaceAllText(templateVariable, templateValue)
+  });
+}
+*/
